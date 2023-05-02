@@ -92,7 +92,13 @@ Accessing the Swagger UI
     -> 10350
 ![](API/results/Screenshot3.png)
     	
-**References:**
+## Next Steps
+1. Storing the data in a database will improve accessibility and processing speed.
+2. Improving the performance of Airflow by deploying it in a cluster of machines hosted on cloud (AWS/ Azure/ GCP).
+3. Using an Ensemble of Machine Learning models and choosing the best model to get better predictions.
+4. Deploying the API on cloud which enables handling more requests and better provisioning of computing resources.
+
+### References:
 
 1. [Increasing Processing Speed of Airflow](https://stackoverflow.com/questions/48219314/can-i-increase-the-processing-speed-by-adding-more-cpus-to-operators-in-airflow)
 2. [Improving the performance of LightGBM model](https://lightgbm.readthedocs.io/en/latest/Parameters.html)
