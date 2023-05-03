@@ -15,7 +15,7 @@ if os.path.getsize(filename) > 0:
 def home():
     return {'text': 'RiskThinking WorkSample'}
 
-@app.get('/predict/')
+@app.post('/predict/')
 def predict(vol_moving_avg : float = 12345, adj_close_rolling_med : float = 25): 
     make_prediction = model.predict([[vol_moving_avg, adj_close_rolling_med]])
     output = round(make_prediction[0])
